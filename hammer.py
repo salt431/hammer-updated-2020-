@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# -*- coding: utf-16-le -*-
+# -*- coding: utf-8 -*-
 
 # python 3.3.2+ Hammer Dos Script v.2
 # by hakder gaming
@@ -115,7 +115,7 @@ def get_parameters():
 	else:
 		port = opts.port
 	if opts.turbo is None:
-		thr = 135
+		thr = 155
 	else:
 		thr = opts.turbo
 
@@ -158,7 +158,7 @@ if __name__ == '__main__':
 		#tasking
 		item = 0
 		while True:
-			if (item>1800): # for no memory crash
+			if (item>1900): # for no memory crash
 				item=0
 				time.sleep(.1)
 			item = item + 1
