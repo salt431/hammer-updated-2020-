@@ -33,6 +33,7 @@ def my_bots():
 	bots=[]
 	bots.append("http://validator.w3.org/check?uri=")
 	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://i.ytimg.com/generate_204=")
 	return(bots)
 
 
